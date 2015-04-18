@@ -28,4 +28,12 @@ module.exports = (robot) ->
 
   robot.hear /修正/i, (msg) ->
     msg.send "修正した内容に不備がないかもう一度確認しましょう"
- 
+
+   robot.hear /竹島/i, (msg) ->
+    msg.send "Rubyをやりませんか？"
+
+   robot.hear /withM/i, (msg) ->
+    msg.send "with~M ア　プ　リ　♬ "
+
+   robot.hear 　/三島/i, (msg) ->
+    msg.send "誰ですか？" 
